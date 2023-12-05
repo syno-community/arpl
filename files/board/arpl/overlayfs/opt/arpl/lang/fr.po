@@ -1,0 +1,758 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-11 22:13+0200\n"
+"PO-Revision-Date: 2023-05-21 02:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: boot.sh:8 init.sh:159
+msgid "Loader is not configured!"
+msgstr "Le chargeur n'est pas configuré"
+
+#: boot.sh:13 init.sh:41
+msgid "Welcome to %s"
+msgstr "Bienvenue sur %s"
+
+#: boot.sh:18
+msgid "BOOTING..."
+msgstr "DÉMARRAGE..."
+
+#: boot.sh:24
+msgid "DSM zImage changed"
+msgstr "La zImage DSM a changé"
+
+#: boot.sh:27 boot.sh:39 menu.sh:559 menu.sh:585 menu.sh:657 menu.sh:668
+#: menu.sh:697 menu.sh:707 menu.sh:714
+msgid "Error"
+msgstr "Erreur"
+
+#: boot.sh:28
+msgid "zImage not patched:\\n"
+msgstr "zImage non patché:\\n"
+
+#: boot.sh:36
+msgid "DSM Ramdisk changed"
+msgstr "Le DSM Ramdisk a changé"
+
+#: boot.sh:40
+msgid "Ramdisk not patched:\\n"
+msgstr "Ramdisk non patché:\\n"
+
+#: boot.sh:52
+msgid "Model:"
+msgstr "Modèle:"
+
+#: boot.sh:53
+msgid "Build:"
+msgstr "Build:"
+
+#: boot.sh:56
+msgid ""
+"The current version of arpl does not support booting %s-%s, please rebuild."
+msgstr ""
+"La version actuelle d'arpl ne prend pas en charge le démarrage %s-%s, "
+"veuillez reconstruire."
+
+#: boot.sh:101
+msgid "netif_num is not equal to macX amount, set netif_num to %s"
+msgstr "netif_num n'est pas égal au nombre macX, définit netif_num à %s"
+
+#: boot.sh:122
+msgid "Cmdline:\\n"
+msgstr "Cmdline:\\n"
+
+#: boot.sh:126
+msgid "IP"
+msgstr "IP"
+
+#: boot.sh:144
+msgid "Reboot to boot directly in DSM"
+msgstr "Redémarrer directement sur le noyau DSM"
+
+#: boot.sh:149
+msgid "Loading DSM kernel..."
+msgstr "Chargement du noyau DSM..."
+
+#: boot.sh:153
+msgid "Warning, running kexec with --noefi param, strange things will happen!!"
+msgstr ""
+"Attention, en exécutant kexec avec le paramètre --noefi, des choses étranges "
+"peuvent se produire !!"
+
+#: boot.sh:158
+msgid "Booting..."
+msgstr "Démarrage..."
+
+#: boot.sh:160
+msgid ""
+"[This interface will not be operational. Please use the http://find.synology."
+"com/ find DSM and connect.]"
+msgstr ""
+"[Cette interface ne sera pas opérationnelle. Veuillez utiliser http://find."
+"synology.com/  pour trouver votre DSM et vous y connecter.]"
+
+#: init.sh:17
+msgid "Loader disk not found!"
+msgstr "Disque chargeur introuvable !"
+
+#: init.sh:19
+msgid "Loader disk seems to be damaged!"
+msgstr "Le disque du chargeur semble être endommagé !"
+
+#: init.sh:20
+msgid "There are multiple loader disks, please insert only one loader disk!"
+msgstr "Il existe plusieurs disques de chargement, veuillez n'insérer qu'un seul disque de chargement !"
+
+#: init.sh:32 init.sh:33 init.sh:34
+msgid "Can't mount %s"
+msgstr "Ne peut pas monter %s"
+
+#: init.sh:102
+msgid "Setting %s MAC to %s"
+msgstr "Modifier %s MAC vers %s"
+
+#: init.sh:120
+msgid "Loader disk neither USB or DoM"
+msgstr "Le disque chargeur n'est ni de type USB ni type DoM"
+
+#: init.sh:128
+msgid "Loader disk:"
+msgstr "Disque chargeur:"
+
+#: init.sh:141
+msgid "Resizing %s"
+msgstr "Redimensionnement %s"
+
+#: init.sh:152
+msgid "Loading keymap"
+msgstr "Sélectionner une disposition clavier"
+
+#: init.sh:162
+msgid "User requested edit settings."
+msgstr "L'utilisateur a demandé l'édition de la configuration."
+
+#: init.sh:172
+msgid "Detected %s network cards, Waiting IP."
+msgstr "%s cartes réseau détectées, attente d'IP."
+
+#: init.sh:178
+msgid "DOWN"
+msgstr "DESACTIVÉ"
+
+#: init.sh:182
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: init.sh:188
+#, fuzzy
+msgid ""
+"Access \\033[1;34mhttp://%s\\033[0m to configure the loader via web terminal."
+msgstr ""
+"Aller à \\033[1;34mhttp://%s\\033[0m pour configurer le chargeur via le "
+"terminal web."
+
+#: init.sh:198
+msgid "Call \\033[1;32mmenu.sh\\033[0m to configure loader"
+msgstr "Tapez \\033[1;32mmenu.sh\\033[0m pour configurer le chargeur"
+
+#: init.sh:200
+msgid "User config is on"
+msgstr "La configuration utilisateur est activé"
+
+#: init.sh:201
+msgid "Default SSH Root password is"
+msgstr "Le mot de passe SSH par défaut est"
+
+#: init.sh:207
+msgid ""
+"You have less than 4GB of RAM, if errors occur in loader creation, please "
+"increase the amount of memory."
+msgstr ""
+"Vous avez moins de 4 Go de RAM, si des erreurs se produisent lors de la "
+"création du chargeur, veuillez augmenter la quantité de mémoire."
+
+#: menu.sh:67
+msgid "Model"
+msgstr "Modèle"
+
+#: menu.sh:68
+msgid "Reading models"
+msgstr "Liste les modèles"
+
+#: menu.sh:93
+msgid "Disable flags restriction"
+msgstr "Désactiver les restrictions"
+
+#: menu.sh:94
+msgid "Show beta models"
+msgstr "Montrer les modèles béta"
+
+#: menu.sh:95
+msgid "Choose the model"
+msgstr "Sélectionner le modèle"
+
+#: menu.sh:133
+msgid "Choose a build number"
+msgstr "Sélectionner le numéro de build"
+
+#: menu.sh:142
+msgid "Build Number"
+msgstr "Numéro de build"
+
+#: menu.sh:143
+msgid "Reconfiguring Synoinfo, Addons and Modules"
+msgstr "Reconfiguration de Synoinfo, Addons et Modules"
+
+#: menu.sh:176 menu.sh:225 menu.sh:349 menu.sh:448 menu.sh:863 menu.sh:1028
+msgid "Choose a option"
+msgstr "Sélectionner une option"
+
+#: menu.sh:177
+msgid "Generate a random serial number"
+msgstr "Générer un numéro de série aléatoire"
+
+#: menu.sh:178
+msgid "Enter a serial number"
+msgstr "Entrer un numéro de série"
+
+#: menu.sh:186
+msgid "Please enter a serial number "
+msgstr "Merci de saisir un numéro de série "
+
+#: menu.sh:195 menu.sh:959
+msgid "Alert"
+msgstr "Alerte"
+
+#: menu.sh:196
+msgid "Invalid serial, continue?"
+msgstr "Numéro de série invalide, continuer ?"
+
+#: menu.sh:226
+msgid "Add an addon"
+msgstr "Ajouter un addon"
+
+#: menu.sh:227
+msgid "Delete addon(s)"
+msgstr "Effacer addon(s)"
+
+#: menu.sh:228
+msgid "Show user addons"
+msgstr "Montrer les addons utilisés"
+
+#: menu.sh:229
+msgid "Show all available addons"
+msgstr "Montrer les addons disponibles"
+
+#: menu.sh:230
+msgid "Download a external addon"
+msgstr "Télécharger un addon externe"
+
+#: menu.sh:231 menu.sh:346 menu.sh:444 menu.sh:744 menu.sh:868 menu.sh:1033
+#: menu.sh:1243
+msgid "Exit"
+msgstr "Quitter"
+
+#: menu.sh:243
+msgid "No available addons to add"
+msgstr "Pas d'addons disponibles à ajouter"
+
+#: menu.sh:247
+msgid "Select an addon"
+msgstr "Sélectionner addon"
+
+#: menu.sh:252
+msgid "params"
+msgstr "paramètres"
+
+#: menu.sh:253
+msgid "Type a opcional params to addon"
+msgstr "Entrer vos paramètres optionnels pour l'addon"
+
+#: menu.sh:263
+msgid "No user addons to remove"
+msgstr "Aucun addons d'utilisateur à supprimer"
+
+#: menu.sh:271
+msgid "Select addon to remove"
+msgstr "Sélectionnez l'addon à supprimer"
+
+#: menu.sh:288
+msgid "User addons"
+msgstr "Addons utilisés"
+
+#: menu.sh:302
+msgid "Available addons"
+msgstr "Addons disponibles"
+
+#: menu.sh:306
+msgid "please enter the complete URL to download."
+msgstr "veuillez saisir l'URL complète à télécharger."
+
+#: menu.sh:313
+msgid "Downloading"
+msgstr "Téléchargement"
+
+#: menu.sh:317
+msgid "Check internet, URL or cache disk space"
+msgstr "Vérifiez la connection internet, l'URL, ou l'espace disque disponible"
+
+#: menu.sh:322
+msgid "Success"
+msgstr "Réussi"
+
+#: menu.sh:325
+msgid "Invalid addon"
+msgstr "Addon non valide"
+
+#: menu.sh:326
+msgid "File format not recognized!"
+msgstr "Format de fichier non reconnu!"
+
+#: menu.sh:341
+msgid "Add/edit a cmdline item"
+msgstr "Ajout/Editer une entrée cmdline"
+
+#: menu.sh:342
+msgid "Delete cmdline item(s)"
+msgstr "Effacer entrée(s) cmdline"
+
+#: menu.sh:343
+msgid "Define a custom MAC"
+msgstr "Définir une MAC personnalisée"
+
+#: menu.sh:344
+msgid "Show user cmdline"
+msgstr "Montrer la cmdline utilisateur"
+
+#: menu.sh:345
+msgid "Show model/build cmdline"
+msgstr "Afficher modèle/build cmdline"
+
+#: menu.sh:354 menu.sh:360 menu.sh:390 menu.sh:398 menu.sh:416
+msgid "User cmdline"
+msgstr "Cmdline utilisateur"
+
+#: menu.sh:355
+msgid "Type a name of cmdline"
+msgstr "Saisir un nom pour la cmdline"
+
+#: menu.sh:361
+msgid "Type a value of '%s' cmdline"
+msgstr "Saisir une valeur pour cmdline '%s'"
+
+#: menu.sh:370
+msgid "No user cmdline to remove"
+msgstr "Aucune cmdline utilisateur à supprimer"
+
+#: menu.sh:378
+msgid "Select cmdline to remove"
+msgstr "Sélectionnez cmdline à supprimer"
+
+#: menu.sh:398
+msgid "Invalid MAC"
+msgstr "MAC non valide"
+
+#: menu.sh:406
+msgid "Changing mac"
+msgstr "Modification MAC"
+
+#: menu.sh:408
+msgid "Renewing IP"
+msgstr "Renouvellement IP"
+
+#: menu.sh:424
+msgid "Model/build cmdline"
+msgstr "Modèle/build cmdline"
+
+#: menu.sh:441
+msgid "Add/edit a synoinfo item"
+msgstr "Ajouter/modifier un élément synoinfo"
+
+#: menu.sh:442
+msgid "Delete synoinfo item(s)"
+msgstr "Supprimer le(s) élément(s) synoinfo"
+
+#: menu.sh:443
+msgid "Show synoinfo entries"
+msgstr "Afficher les entrées synoinfo"
+
+#: menu.sh:453 menu.sh:459 menu.sh:494
+msgid "Synoinfo entries"
+msgstr "Entrées Synoinfo"
+
+#: menu.sh:454
+msgid "Type a name of synoinfo entry"
+msgstr "Tapez un nom d'entrée synoinfo"
+
+#: menu.sh:470
+msgid "No synoinfo entries to remove"
+msgstr "Aucune entrée synoinfo à supprimer"
+
+#: menu.sh:478
+msgid "Select synoinfo entry to remove"
+msgstr "Tapez un nom d'entrée synoinfo"
+
+#: menu.sh:536
+msgid ""
+"Based on the current network situation, switch to %s mirror to downloading."
+msgstr ""
+
+#: menu.sh:541
+msgid "Downloading %s"
+msgstr "Téléchargement %s"
+
+#: menu.sh:551 menu.sh:614
+msgid "Error downloading"
+msgstr "Erreur téléchargement"
+
+#: menu.sh:552 menu.sh:615
+msgid "Check internet or cache disk space"
+msgstr "Vérifier Internet ou l'espace disque pour le cache"
+
+#: menu.sh:560
+msgid "Hash of pat not match, try again!"
+msgstr "Le Hach du fichier pat ne correspond pas, réessayez!"
+
+#: menu.sh:586
+msgid ""
+"Could not determine if pat file is encrypted or not, maybe corrupted, try "
+"again!"
+msgstr ""
+"Impossible de déterminer si le fichier pat est crypté ou non, peut-être "
+"corrompu, essayez encore!"
+
+#: menu.sh:604
+msgid "Downloading old pat to extract synology .pat extractor..."
+msgstr ""
+"Téléchargement ancien pat pour extraire l'extracteur .pat de synology ..."
+
+#: menu.sh:626 menu.sh:649
+msgid "Error extracting"
+msgstr "Erreur lors de l'extraction"
+
+#: menu.sh:643 menu.sh:646
+msgid "Extracting..."
+msgstr "Extraction..."
+
+#: menu.sh:653
+msgid "Checking hash of zImage: "
+msgstr "Vérification du Hach de zImage: "
+
+#: menu.sh:658
+msgid "Hash of zImage not match, try again!"
+msgstr "Le Hach de zImage ne correspond pas, réessayez!"
+
+#: menu.sh:664
+msgid "Checking hash of ramdisk: "
+msgstr "Vérification du hach du ramdisk: "
+
+#: menu.sh:669
+msgid "Hash of ramdisk not match, try again!"
+msgstr "Le hach du ramdisk ne correspond pas, réessayez!"
+
+#: menu.sh:675
+msgid "Copying files: "
+msgstr "Copie de fichiers: "
+
+#: menu.sh:698
+msgid "Addon %s not found!"
+msgstr "Addon %s introuvable !"
+
+#: menu.sh:708
+msgid "zImage not patched:"
+msgstr "zImage non patché:"
+
+#: menu.sh:715
+msgid "Ramdisk not patched:"
+msgstr "Ramdisk non patché:"
+
+#: menu.sh:719 menu.sh:1285
+msgid "Cleaning"
+msgstr "Nettoyage"
+
+#: menu.sh:722
+msgid "Ready!"
+msgstr "Prêt!"
+
+#: menu.sh:735
+msgid "Switch LKM version"
+msgstr "Changer de version LKM"
+
+#: menu.sh:736 menu.sh:881
+msgid "Modules"
+msgstr "Modules"
+
+#: menu.sh:739
+msgid "Switch direct boot"
+msgstr "Activer le démarrage direct"
+
+#: menu.sh:741
+msgid "Edit user config file manually"
+msgstr "Modifier manuellement le fichier de configuration utilisateur"
+
+#: menu.sh:742
+msgid "Try to recovery a DSM installed system"
+msgstr "Essayez de récupérer un système DSM installé"
+
+#: menu.sh:743
+msgid "Show SATA(s)) # ports and drives"
+msgstr "Afficher SATA(s)) # ports et lecteurs"
+
+#: menu.sh:746
+msgid "Advanced"
+msgstr "Avancé"
+
+#: menu.sh:747 menu.sh:1246
+msgid "Choose the option"
+msgstr "Sélectionner l'option"
+
+#: menu.sh:795
+msgid "\\nTotal of ports: %s\\n"
+msgstr "\\nTotal of ports: %s\\n"
+
+#: menu.sh:796
+msgid ""
+"\\nPorts with color \\Z1red\\Zn as DUMMY, color \\Z2\\Zbgreen\\Zn has drive "
+"connected."
+msgstr ""
+"\\nPorts avec la couleur \\Z1red\\Zn comme factice, la couleur "
+"\\Z2\\Zbgreen\\Zn a un lecteur connecté."
+
+#: menu.sh:808 menu.sh:836 menu.sh:843
+msgid "Try recovery DSM"
+msgstr "Tentative de récupération du DSM"
+
+#: menu.sh:809
+msgid "Trying to recovery a DSM installed system"
+msgstr "Tentative de récupération d'un système DSM installé"
+
+#: menu.sh:830
+msgid "Found a installation:\\n%s: \\n%s:"
+msgstr "Installation trouvée :\\n%s : \\n%s :"
+
+#: menu.sh:844
+msgid "Unfortunately I couldn't mount the DSM partition!"
+msgstr "Malheureusement, je n'ai pas pu monter la partition DSM !"
+
+#: menu.sh:854
+msgid "Reading modules"
+msgstr "Chargement des modules"
+
+#: menu.sh:864
+msgid "Show selected modules"
+msgstr "Afficher les modules sélectionnées"
+
+#: menu.sh:865
+msgid "Select all modules"
+msgstr "Sélectionner tous les modules"
+
+#: menu.sh:866
+msgid "Deselect all modules"
+msgstr "Désélectionner tous les modules"
+
+#: menu.sh:867
+msgid "Choose modules to include"
+msgstr "Sélectionner les modules à inclure"
+
+#: menu.sh:877
+msgid "User modules"
+msgstr "Modules utilisateur"
+
+#: menu.sh:882
+msgid "Selecting all modules"
+msgstr "Sélection de tous les modules"
+
+#: menu.sh:894
+msgid "Deselecting all modules"
+msgstr "Désélection de tous les modules"
+
+#: menu.sh:907
+msgid "Select modules to include"
+msgstr "Sélectionne les modules à inclure"
+
+#: menu.sh:913
+msgid "Writing to user config"
+msgstr "Écrit la configuration utilisateur"
+
+#: menu.sh:940
+msgid "Invalid YAML format"
+msgstr "Format YAML non valide"
+
+#: menu.sh:960
+msgid "Config changed, would you like to rebuild the loader?"
+msgstr "La configuration a changé, souhaitez-vous reconstruire le chargeur ?"
+
+#: menu.sh:986 menu.sh:1237
+msgid "Choose a language"
+msgstr "Sélectionner une langue"
+
+#: menu.sh:999
+msgid "Choose a layout"
+msgstr "Sélectionner une langue clavier"
+
+#: menu.sh:1012
+msgid "Choice a keymap"
+msgstr "Sélectionner une disposition clavier"
+
+#: menu.sh:1029 menu.sh:1038 menu.sh:1064 menu.sh:1071 menu.sh:1075
+#: menu.sh:1092
+msgid "Update arpl"
+msgstr "Mise à jour arpl"
+
+#: menu.sh:1030 menu.sh:1100 menu.sh:1104 menu.sh:1108 menu.sh:1112
+#: menu.sh:1116 menu.sh:1121 menu.sh:1131
+msgid "Update addons"
+msgstr "Mise à jour addons"
+
+#: menu.sh:1031 menu.sh:1136 menu.sh:1140 menu.sh:1144 menu.sh:1148
+#: menu.sh:1152 menu.sh:1157
+msgid "Update LKMs"
+msgstr "Mise à jour LKMS"
+
+#: menu.sh:1032
+msgid "Update modules"
+msgstr "Mise à jour modules"
+
+#: menu.sh:1039 menu.sh:1101 menu.sh:1137 menu.sh:1174
+msgid "Checking last version"
+msgstr "Vérification de la dernière version"
+
+#: menu.sh:1044 menu.sh:1105 menu.sh:1141 menu.sh:1178
+msgid "Error checking new version"
+msgstr "Erreur lors de la vérification de la nouvelle version"
+
+#: menu.sh:1049
+msgid "No new version. Actual version is %s\\nForce update?"
+msgstr ""
+"Pas de nouvelle version. La version actuelle est %s\\nForcer la mise à jour ?"
+
+#: menu.sh:1053 menu.sh:1109 menu.sh:1145
+msgid "Downloading last version"
+msgstr "Téléchargement de la dernière version"
+
+#: menu.sh:1059
+msgid "Error downloading update file"
+msgstr "Erreur lors du téléchargement de la mise à jour"
+
+#: menu.sh:1065
+msgid "Error extracting update file"
+msgstr "Erreur lors de l'extraction de la mise à jour"
+
+#: menu.sh:1072
+msgid "Checksum do not match!"
+msgstr "La somme de contrôle ne correspond pas !"
+
+#: menu.sh:1076
+msgid "Installing new files"
+msgstr "Installation des nouveaux fichiers"
+
+#: menu.sh:1093
+msgid "Arpl updated with success to %s!\\nReboot?"
+msgstr "Arpl mis à jour avec succès vers %s !\\nRedémarrer ?"
+
+#: menu.sh:1113
+msgid "Error downloading new version"
+msgstr "Erreur lors du téléchargement de la nouvelle version"
+
+#: menu.sh:1117 menu.sh:1153
+msgid "Extracting last version"
+msgstr "Extraction de la dernière version"
+
+#: menu.sh:1122
+msgid "Installing new addons"
+msgstr "Installation des nouveaux addons"
+
+#: menu.sh:1132
+msgid "Addons updated with success!"
+msgstr "Addons mis à jour avec succès!"
+
+#: menu.sh:1149
+msgid "Error downloading last version"
+msgstr "Erreur lors du téléchargement de la dernière version"
+
+#: menu.sh:1158
+msgid "LKMs updated with success!"
+msgstr "LKM mis à jour avec succès !"
+
+#: menu.sh:1173 menu.sh:1177 menu.sh:1181 menu.sh:1185 menu.sh:1199
+msgid "Update Modules"
+msgstr "Mise à jour Modules"
+
+#: menu.sh:1182
+msgid "Downloading modules"
+msgstr "Téléchargement des modules"
+
+#: menu.sh:1186
+msgid "Error downloading "
+msgstr "Erreur lors du téléchargement "
+
+#: menu.sh:1200
+msgid "Modules updated with success!"
+msgstr "Modules mis à jour avec succès !"
+
+#: menu.sh:1218
+msgid "Choose a model"
+msgstr "Sélectionner le modèle"
+
+#: menu.sh:1220
+msgid "Choose a Build Number"
+msgstr "Sélectionner le numéro de build"
+
+#: menu.sh:1221
+msgid "Choose a serial number"
+msgstr "Choix du numéro de série"
+
+#: menu.sh:1223
+msgid "Addons"
+msgstr "Addons"
+
+#: menu.sh:1224
+msgid "Cmdline menu"
+msgstr "Menu Cmdline"
+
+#: menu.sh:1225
+msgid "Synoinfo menu"
+msgstr "Menu Synoinfo"
+
+#: menu.sh:1228
+msgid "Advanced menu"
+msgstr "Menu avancé"
+
+#: menu.sh:1231
+msgid "Build the loader"
+msgstr "Construire le chargeur"
+
+#: menu.sh:1235
+msgid "Boot the loader"
+msgstr "Démarrez le chargeur"
+
+#: menu.sh:1238
+msgid "Choose a keymap"
+msgstr "Sélectionner une configuration de clavier"
+
+#: menu.sh:1240
+msgid "Clean disk cache"
+msgstr "Nettoyer le cache disque"
+
+#: menu.sh:1242
+msgid "Update menu"
+msgstr "Menu des mises à jour"
+
+#: menu.sh:1292
+msgid "Call %s to return to menu"
+msgstr "Tapez %s pour revenir à ce menu"
+
+#~ msgid "Model/build"
+#~ msgstr "Modèle/build"
