@@ -975,7 +975,7 @@ function updateMenu() {
         dialog --backtitle "`backtitle`" --title "Update arpl" --aspect 18 \
           --infobox "Checking last version" 0 0
         ACTUALVERSION="v${ARPL_VERSION}"
-        TAG="`curl --insecure -s https://api.github.com/repos/fbelavenuto/arpl/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`"
+        TAG="`curl --insecure -s https://api.github.com/repos/syno-community/arpl/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`"
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "Update arpl" --aspect 18 \
             --msgbox "Error checking new version" 0 0
@@ -990,7 +990,7 @@ function updateMenu() {
           --infobox "Downloading last version ${TAG}" 0 0
         # Download update file
         STATUS=`curl --insecure -w "%{http_code}" -L \
-          "https://github.com/fbelavenuto/arpl/releases/download/${TAG}/update.zip" -o /tmp/update.zip`
+          "https://github.com/syno-community/arpl/releases/download/${TAG}/update.zip" -o /tmp/update.zip`
         if [ $? -ne 0 -o ${STATUS} -ne 200 ]; then
           dialog --backtitle "`backtitle`" --title "Update arpl" --aspect 18 \
             --msgbox "Error downloading update file" 0 0
@@ -1036,7 +1036,7 @@ function updateMenu() {
       d)
         dialog --backtitle "`backtitle`" --title "Update addons" --aspect 18 \
           --infobox "Checking last version" 0 0
-        TAG=`curl --insecure -s https://api.github.com/repos/fbelavenuto/arpl-addons/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+        TAG=`curl --insecure -s https://api.github.com/repos/syno-community/arpl-addons/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "Update addons" --aspect 18 \
             --msgbox "Error checking new version" 0 0
@@ -1044,7 +1044,7 @@ function updateMenu() {
         fi
         dialog --backtitle "`backtitle`" --title "Update addons" --aspect 18 \
           --infobox "Downloading last version" 0 0
-        STATUS=`curl --insecure -s -w "%{http_code}" -L "https://github.com/fbelavenuto/arpl-addons/releases/download/${TAG}/addons.zip" -o /tmp/addons.zip`
+        STATUS=`curl --insecure -s -w "%{http_code}" -L "https://github.com/syno-community/arpl-addons/releases/download/${TAG}/addons.zip" -o /tmp/addons.zip`
         if [ $? -ne 0 -o ${STATUS} -ne 200 ]; then
           dialog --backtitle "`backtitle`" --title "Update addons" --aspect 18 \
             --msgbox "Error downloading new version" 0 0
@@ -1072,7 +1072,7 @@ function updateMenu() {
       l)
         dialog --backtitle "`backtitle`" --title "Update LKMs" --aspect 18 \
           --infobox "Checking last version" 0 0
-        TAG=`curl --insecure -s https://api.github.com/repos/fbelavenuto/redpill-lkm/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+        TAG=`curl --insecure -s https://api.github.com/repos/syno-community/redpill-lkm/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "Update LKMs" --aspect 18 \
             --msgbox "Error checking new version" 0 0
@@ -1080,7 +1080,7 @@ function updateMenu() {
         fi
         dialog --backtitle "`backtitle`" --title "Update LKMs" --aspect 18 \
           --infobox "Downloading last version" 0 0
-        STATUS=`curl --insecure -s -w "%{http_code}" -L "https://github.com/fbelavenuto/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o /tmp/rp-lkms.zip`
+        STATUS=`curl --insecure -s -w "%{http_code}" -L "https://github.com/syno-community/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o /tmp/rp-lkms.zip`
         if [ $? -ne 0 -o ${STATUS} -ne 200 ]; then
           dialog --backtitle "`backtitle`" --title "Update LKMs" --aspect 18 \
             --msgbox "Error downloading last version" 0 0
@@ -1109,7 +1109,7 @@ function updateMenu() {
         done < <(find "${MODEL_CONFIG_PATH}" -maxdepth 1 -name \*.yml | sort)
         dialog --backtitle "`backtitle`" --title "Update Modules" --aspect 18 \
           --infobox "Checking last version" 0 0
-        TAG=`curl --insecure -s https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+        TAG=`curl --insecure -s https://api.github.com/repos/syno-community/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "Update Modules" --aspect 18 \
             --msgbox "Error checking new version" 0 0
@@ -1118,7 +1118,7 @@ function updateMenu() {
         for P in ${!PLATFORMS[@]}; do
           dialog --backtitle "`backtitle`" --title "Update Modules" --aspect 18 \
             --infobox "Downloading ${P} modules" 0 0
-          STATUS=`curl --insecure -s -w "%{http_code}" -L "https://github.com/fbelavenuto/arpl-modules/releases/download/${TAG}/${P}.tgz" -o "/tmp/${P}.tgz"`
+          STATUS=`curl --insecure -s -w "%{http_code}" -L "https://github.com/syno-community/arpl-modules/releases/download/${TAG}/${P}.tgz" -o "/tmp/${P}.tgz"`
           if [ $? -ne 0 -o ${STATUS} -ne 200 ]; then
             dialog --backtitle "`backtitle`" --title "Update Modules" --aspect 18 \
               --msgbox "Error downloading ${P}.tgz" 0 0
